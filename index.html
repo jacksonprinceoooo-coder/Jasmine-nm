@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasmine | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Jasmine</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="darkModeToggle">🌙 Dark Mode</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="fade-section">
+    <div class="hero-content">
+      <!-- 👩 Girl profile image -->
+      <img src="https://i.pravatar.cc/150?img=47" alt="Jasmine" class="profile-img">
+      <h2>Hi, I'm Jasmine 👋</h2>
+      <p>A passionate student & web developer from Kallakurichi</p>
+      <a href="#contact" class="btn">📩 Hire Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="fade-section">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate student with interests in programming, problem-solving, and Tamil culture.
+      Skilled in web development and always eager to learn new technologies.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="fade-section">
+    <h2>Projects</h2>
+    <div class="card-container">
+      <!-- 🚫 Removed project images -->
+      <div class="card">
+        <h3>Python Arithmetic Calculator</h3>
+        <p>A calculator built using Python with error handling.</p>
+      </div>
+      <div class="card">
+        <h3>Natural Resources Report</h3>
+        <p>Research report on preserving natural resources.</p>
+      </div>
+      <div class="card">
+        <h3>GitHub Portfolio</h3>
+        <p>This live portfolio hosted on GitHub Pages.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="fade-section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Python Programming</li>
+      <li>Web Development</li>
+      <li>Data Analysis</li>
+    </ul>
+
+    <h3>IBM SkillsBuild Certificate</h3>
+    <img src="https://raw.githubusercontent.com/yourusername/yourrepo/main/certificate.png" 
+         alt="IBM SkillsBuild Certificate" class="cert-img">
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="fade-section">
+    <h2>Resume</h2>
+    <div class="resume-header">
+      <p><strong>📧 Email:</strong> <a href="mailto:jasminmarya00@gmail.com">jasminmarya00@gmail.com</a></p>
+      <!-- 📞 Updated phone -->
+      <p><strong>📞 Phone:</strong> <a href="tel:+918825838912">+91 88258 38912</a></p>
+      <!-- 📍 Updated location -->
+      <p><strong>📍 Location:</strong> Kallakurichi, India</p>
+    </div>
+    <p>You can download or view my resume using the buttons below:</p>
+    <div class="resume-buttons">
+      <a href="resume.pdf" target="_blank" class="btn">📄 View Fullscreen</a>
+      <a href="resume.pdf" download class="btn">⬇️ Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="fade-section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+      <div id="formMessage" class="form-message"></div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jasmine | Smart Student Portfolio</p>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="backToTop">⬆</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
